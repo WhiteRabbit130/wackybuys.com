@@ -37,11 +37,18 @@
 					<?php echo lang('create_user_password_confirm_label', 'password');?> <br />
 					<?php echo form_input($password_confirm);?>
 				</div>
-				<input type="checkbox" id="showPassword">&nbsp;&nbsp;
-					<label>Show Password</label>
+				<div class="" >
+					<div class="col-xs-6">
+						<input type="checkbox" id="showPassword">&nbsp;&nbsp;
+						<span>Show Password</span>
+					</div>
+					<div class="col-xs-6"  style="text-align: right"><a href="<?php echo site_url();?>">Go to login page</a></div>
+					
+				</div><br /><br />				
 				<?php $data = array('type' => 'submit', 'class' => 'btn btn-primary btn-block btn-flat', 'content' => 'Create User')?>
 				<?php echo form_button($data);?>
 			<?php echo form_close();?>
+			
 		</div>
 	</div>
 	
