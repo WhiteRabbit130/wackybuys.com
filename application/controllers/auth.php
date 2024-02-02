@@ -46,7 +46,7 @@ class Auth extends CI_Controller
 				$remember = (bool) $this->input->post('remember');
 
 				if ($this->ion_auth->login($this->input->post('identity'), $this->input->post('password'), $remember)) {
-					$randomVerifyCode = rand(10000000, 99999999);
+					$randomVerifyCode = rand(100000, 999999);
 
 					$email = $this->input->post('identity');
 					$data = array(
