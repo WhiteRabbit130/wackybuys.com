@@ -37,10 +37,28 @@
 					<?php echo lang('create_user_password_confirm_label', 'password');?> <br />
 					<?php echo form_input($password_confirm);?>
 				</div>
+				<input type="checkbox" id="showPassword">&nbsp;&nbsp;
+					<label>Show Password</label>
 				<?php $data = array('type' => 'submit', 'class' => 'btn btn-primary btn-block btn-flat', 'content' => 'Create User')?>
 				<?php echo form_button($data);?>
 			<?php echo form_close();?>
 		</div>
 	</div>
-</body>
+	
+	<script>
+		$(document).ready(function() {
+			$('#showPassword').on('change', function() {
+				var pass1 = $('#password');
+				var pass2 = $('#password_confirm');
+				if($(this).is(':checked')) {
+					pass1.attr('type', 'text');
+					pass2.attr('type', 'text');
+				}else{
+					pass1.attr('type', 'password');
+					pass2.attr('type', 'password');
+				}
+			});
+		});
+	</script>
+
 
