@@ -599,7 +599,7 @@ class Auth extends CI_Controller
 		if ($this->form_validation->run() == false) {
 
 			//setup the form
-			$this->data['attributes'] = array('class' => 'lockscreen-credentials');
+			// $this->data['attributes'] = array('class' => 'lockscreen-credentials');
 
 			//setup the input
 			$this->data['email'] = array(
