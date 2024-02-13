@@ -8,7 +8,6 @@
 	</script>
     <!-- Bootstrap 3.3.2 JS -->
     <script src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js')?>" type="text/javascript"></script>
-		
     <!-- Bootstrap Validator -->
     <script src="<?php echo base_url('assets/plugins/validator/js/formValidation.js');?>" type="text/javascript"></script> 
     <script src="<?php echo base_url('assets/plugins/validator/js/framework/bootstrap.js');?>" type="text/javascript"></script> 
