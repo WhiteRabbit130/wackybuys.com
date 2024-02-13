@@ -49,7 +49,7 @@
           "bAutoWidth": true
         });
       });
-			</script>
+		</script>
 
 		<!-- iCheck -->
 		<!-- <script src="<?php echo base_url('assets/plugins/iCheck/icheck.min.js');?>" type="text/javascript"></script>
