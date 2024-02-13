@@ -1,6 +1,5 @@
 <body class="skin-red sidebar-mini">
     <div class="wrapper">
-      
       <header class="main-header">
         <!-- Logo -->
         <a href="<?php echo site_url();?>" class="logo">
