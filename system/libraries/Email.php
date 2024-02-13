@@ -83,14 +83,14 @@ class CI_Email {
 	 *
 	 * @var	string
 	 */
-	public $smtp_user	= 'erikhirsch0910@gmail.com';
+	public $smtp_user	= 'bearrabbit324130@gmail.com';
 
 	/**
 	 * SMTP Password
 	 *
 	 * @var	string
 	 */
-	public $smtp_pass	= 'egwottqqhoojwaww';
+	public $smtp_pass	= 'xswgumvlpzyhhnuu';
 
 	/**
 	 * SMTP Server port
