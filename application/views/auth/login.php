@@ -2,7 +2,6 @@
 <link href="<?php echo base_url('assets/dist/css/login.css');?>" rel="stylesheet" type="text/css" />
 <body>
 <div class="login-box">
-
 		<div class="login-logo">
 			<a href="<?php echo site_url();?>"><b>Wackybuys</b></a>
 		</div><!-- /.login-logo -->
