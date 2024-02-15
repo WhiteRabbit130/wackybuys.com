@@ -431,13 +431,11 @@
               </div><!-- /.box -->
 
             </div><!-- /.col-md-4 -->
-
             
           </div><!-- /.row -->
         </section><!-- /.content -->
 
       </div><!-- /.content-wrapper -->
-
 
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
@@ -447,7 +445,6 @@
       </footer>
  
     </div><!-- ./wrapper -->
-
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
