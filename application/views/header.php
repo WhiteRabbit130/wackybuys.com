@@ -67,13 +67,5 @@
 		<link href="<?php echo base_url('assets/css/responsive.css');?>" rel="stylesheet" type="text/css"/>
   </head>
 	<body>
-		<!-- START TOPBAR -->
-		<?php $this->load->view('topbar'); ?>
-		<!-- END TOPBAR -->
 		
-		<!-- START CONTAINER -->
-		<div class="page-container row-fluid">
-			<!-- SIDEBAR - START -->
-			<?php $this->load->view('sidebar'); ?>
-			<!--  SIDEBAR - END -->
 
