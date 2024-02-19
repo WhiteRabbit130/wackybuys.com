@@ -11,8 +11,6 @@
     <title>Welcome to | Knowledge Base</title>
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap 3.3.2 -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />   
     <!-- FontAwesome 4.3.0 -->
     <link href="<?php echo base_url('assets/plugins/font-awesome/css/font-awesome.min.css')?>" rel="stylesheet" type="text/css" />
     <!-- Ionicons 2.0.0 -->
@@ -39,12 +37,6 @@
     <!-- iCheck -->
     <link href="<?php echo base_url('assets/plugins/iCheck/square/blue.css');?>" rel="stylesheet" type="text/css" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
 		<link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.png');?>" type="image/x-icon" />    <!-- Favicon -->
 		<link rel="apple-touch-icon-precomposed" href="<?php echo base_url('assets/images/apple-touch-icon-57-precomposed.png');?>">	<!-- For iPhone -->
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url('assets/images/apple-touch-icon-114-precomposed.png');?>">    <!-- For iPhone 4 Retina display -->
@@ -53,14 +45,13 @@
 
 		<!-- CORE CSS FRAMEWORK - START -->
 		<link href="<?php echo base_url('assets/plugins/pace/pace-theme-flash.css');?>" rel="stylesheet" type="text/css" media="screen"/>
-		<link href="<?php echo base_url('assets/plugins/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet" type="text/css"/>
-    <link href="<?php echo base_url('assets/fonts/font-awesome/css/font-awesome.css');?>" rel="stylesheet" type="text/css"/>
 		<link href="<?php echo base_url('assets/css/animate.min.css');?>" rel="stylesheet" type="text/css"/>
 		<link href="<?php echo base_url('assets/plugins/perfect-scrollbar/perfect-scrollbar.css');?>" rel="stylesheet" type="text/css"/>
 		<!-- CORE CSS FRAMEWORK - END -->
 
 		<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
 		<link href="<?php echo base_url('assets/plugins/datatables/css/dataTables.min.css');?>" rel="stylesheet" type="text/css" media="screen"/>        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
+		<link href="<?php echo base_url('assets/plugins/datepicker/css/datepicker.css');?>" rel="stylesheet" type="text/css" media="screen"/>        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
 
 		<!-- CORE CSS TEMPLATE - START -->
 		<link href="<?php echo base_url('assets/css/style.css');?>" rel="stylesheet" type="text/css"/>

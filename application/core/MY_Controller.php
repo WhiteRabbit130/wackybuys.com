@@ -13,6 +13,7 @@ class MY_Controller extends CI_Controller {
         parent::__construct();
 		$this->load->library(array('ion_auth', 'form_validation'));
 		$this->load->helper(array('url', 'language'));
+
         // Carrega o Template e Guard
         // $this->load->library( 'Template' );
         // $this->load->library( 'Guard' );
