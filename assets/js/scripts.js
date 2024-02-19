@@ -1533,12 +1533,12 @@ jQuery(function($) {
 
             /*--- start ---*/
 
-            var tableex1 = $("#example-11").dataTable({
-                dom: 'Bfrtip',
-                buttons: [
-                    'copy', 'csv', 'excel', 'pdf', 'print'
-                ]
-            });
+            // var tableexcsv = $("#example-csv").dataTable({
+            //     dom: 'Bfrtip',
+            //     buttons: [
+            //         'copy', 'csv', 'excel', 'pdf', 'print'
+            //     ]
+            // });
 
             /*--- end ---*/
 

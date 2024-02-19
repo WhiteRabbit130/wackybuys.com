@@ -10,11 +10,18 @@ class Lead extends MY_Controller
 		// $this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
 
 		// $this->lang->load('auth');
+		$this->load->view('header');
+		$this->load->view('footer');
 	}
 
 	function index()
 	{
-
+		if (!$this->ion_auth->logged_in()) {
+			//redirect them to the login page
+			redirect('auth/login', 'refresh');
+		} else {
+			$this->load->view('lead/leads');
+		}
 	}
 
 	function add()

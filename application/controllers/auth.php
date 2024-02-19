@@ -16,7 +16,7 @@ class Auth extends CI_Controller
 		$this->lang->load('auth');
 		
 		$this->load->view('header');
-		$this->load->view('footer');
+		$this->load->view('footer', array('page' => 'auth'));
 
 	}
 
