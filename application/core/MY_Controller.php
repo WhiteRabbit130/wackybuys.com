@@ -12,8 +12,8 @@ class MY_Controller extends CI_Controller {
     public function __construct() {
         parent::__construct();
         // Carrega o Template e Guard
-        $this->load->library( 'Template' );
-        $this->load->library( 'Guard' );
+        // $this->load->library( 'Template' );
+        // $this->load->library( 'Guard' );
     }
 
 }
