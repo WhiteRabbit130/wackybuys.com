@@ -1,18 +1,17 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
-class Lead extends MY_Model
+class Lead extends MY_Controller
 {
 	function __construct()
 	{
 		parent::__construct();
 		$this->load->model('Lead_model');
 
-		$this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
+		// $this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
 
-		$this->lang->load('auth');
+		// $this->lang->load('auth');
 
-		if (!$this->ion_auth->logged_in()) {
-
+		if ($this->ion_auth->logged_in()) {
 			$this->load->view('header');
 			$this->load->view('footer');
 		}
@@ -29,7 +28,7 @@ class Lead extends MY_Model
 			//redirect them to the login page
 			redirect('auth/login', 'refresh');
 		} else {
-			$this->_render_page('lead/add');
+			$this->load->view('lead/add');
 		}
 	}
 }
