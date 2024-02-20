@@ -1,38 +1,6 @@
 <link href="<?php echo base_url('assets/dist/css/login-style.css');?>" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url('assets/dist/css/login.css');?>" rel="stylesheet" type="text/css" />
-<body class=" login_page">
-        <div class="login-wrapper">
-            <div id="login" class="login loginpage offset-xl-4 col-xl-4 offset-lg-3 col-lg-6 offset-md-3 col-md-6 col-offset-0 col-12">
-                <h1><a href="#" title="Login Page" tabindex="-1">Wackybuys</a></h1>
-                <form name="loginform" id="loginform" action="index.html" method="post">
-					<div>
-						 <p>
-                        <label for="user_login">Email Address<br />
-                            <input type="text" name="log" id="user_login" class="input" value="" size="20" placeholder="Email Address"/></label>
-                    </p>
-                    <p>
-                        <label for="user_pass">Password<br />
-                            <input type="password" name="pwd" id="user_pass" class="input" value="" size="20" placeholder="Password"/></label>
-                    </p>
-					<p class="forgetmenot float-left">
-						<label class="icheck-label form-label" for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever" class="skin-square-orange" checked> Remember me</label>
-					</p>
-					<p class="forgetmenot float-right">
-						<label class="icheck-label form-label" for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever" class="skin-square-orange" checked> Show Password</label>
-					</p>
-					</div>
-                   
-					<div class="g-recaptcha" data-sitekey="6LeNblspAAAAAAjE_Itbl4DkXIibaeuaWW7QMhvT"></div>
-                    <p class="submit">
-                        <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-orange btn-block" value="Sign In" />
-                    </p>
-                </form>
-                <p id="nav">
-                    <a class="float-left" href="#" title="Password Lost and Found">Forgot password?</a>
-                    <a class="float-right" href="ui-register.html" title="Sign Up">Sign Up</a>
-                </p>
-            </div>
-        </div>
+<body>
 <div class="login-box">
 		<div class="login-logo">
 			<a href="<?php echo site_url();?>"><b>Wackybuys</b></a>
@@ -55,7 +23,7 @@
 					</div>
 					<input type="checkbox" id="showPassword">&nbsp;&nbsp;
 					<label>Show Password</label>
-					<!-- <div class="g-recaptcha" data-sitekey="6LeNblspAAAAAAjE_Itbl4DkXIibaeuaWW7QMhvT"></div> -->
+					<div class="g-recaptcha" data-sitekey="6LeNblspAAAAAAjE_Itbl4DkXIibaeuaWW7QMhvT"></div>
 
 					<div class="row" style="padding-left: 20px; padding-top: 10px;">
 
@@ -81,7 +49,57 @@
 			</div><!-- /.login-box-body -->
 
 </div>
+<!-- <div class="form-body">
+	<div class="website-logo">
+			<a href="index.html">
+					<div class="logo">
+							<img class="logo-size" src="" alt="">
+					</div>
+			</a>
+	</div>
+	<div class="row">
+			<div class="img-holder">
+					<div class="bg"></div>
+					<div class="info-holder">
+					</div>
+			</div>
+			<div class="form-holder">
+					<div class="form-content">
+							<div class="form-items">
+									<h3>Wackybuys</h3>
+									<p>Sign in to start your session</p>
+									<div class="page-links">
+											<a href="login3.html" class="active">Login</a><a href="register3.html">Register</a>
+									</div>
+									<div class="alert alert-warning alert-dismissible fade show with-icon" role="alert">
+											Please fill the following form with your information
+											<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+									</div>
+									<form>
+											<input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
+											<input class="form-control" type="password" name="password" placeholder="Password" required>
+											<div class="">    
+												<div class="checkbox icheck">
+													<?php echo form_checkbox('remember', '1', FALSE, 'id="remember"');?>  <?php echo lang('login_remember_label', 'remember');?>
+												</div>                        
+											</div>
+											<div class="form-button">
+													<button id="submit" type="submit" class="ibtn">Login</button> <a href="forget3.html">Forget password?</a>
+											</div>
+									</form>
+									<div class="other-links">
+											<span>Or login with</span><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-google"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+									</div>
+							</div>
+					</div>
+			</div>
+	</div>
+</div>    -->
+<!-- load recaptcha.js -->
 <script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script src="<?php echo base_url('assets/dist/js/login.js');?>" type="text/javascript"></script> 
 <script>
 $(document).ready(function() {

@@ -4348,7 +4348,7 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     background-color: transparent;
 }
 .loginpage form .forgetmenot {
-    width: 100%;
+    width: 50%;
     display: block;
     margin: 12px 0 11px 0!important;
     font-weight: 400;
