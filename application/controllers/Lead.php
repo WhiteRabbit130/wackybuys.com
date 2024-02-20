@@ -14,13 +14,16 @@ class Lead extends MY_Controller
 
 	function index()
 	{
-		$leads = $this->Lead_model->getAll();
-		print_r($leads);exit;
+		if(!$this->Lead_model->getAll()) {
+			$data['leads'] = [];
+		} else {
+			$data['leads'] = $this->Lead_model->getAll();
+		}
+
 		if (!$this->ion_auth->logged_in()) {
-			//redirect them to the login page
 			redirect('auth/login', 'refresh');
 		} else {
-			$this->load->view('lead/leads');
+			$this->load->view('lead/leads', $data);
 		}
 	}
 
@@ -32,5 +35,11 @@ class Lead extends MY_Controller
 		} else {
 			$this->load->view('lead/add');
 		}
+	}
+
+	function delete($id)
+	{
+		$this->Lead_model->delete($id);
+		redirect('lead');
 	}
 }
