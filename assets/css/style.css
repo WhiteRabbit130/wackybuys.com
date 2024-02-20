@@ -4355,6 +4355,9 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     float: left;
     margin-bottom: 0px;
 }
+.loginpage form .login-icheck {
+    width: 50%;
+}
 .loginpage form p.submit {
     display: inline-block;
     width: 100%;
@@ -4367,7 +4370,7 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     text-transform: uppercase;
     font-weight: 500;
 }
-.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text] {
+.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text], .loginpage input[type=password] {
     -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
     -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
@@ -4377,7 +4380,7 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     
     font-weight: 500;
 }
-.loginpage form .input, .loginpage input[type=text] {
+.loginpage form .input, .loginpage input[type=text], .loginpage input[type=password] {
     font-size: 19px;
     width: 100%;
     padding: 9px;
@@ -4385,12 +4388,16 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     margin: 5px 0 15px 0;
     border: 1px solid transparent !important;
 }
-.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text] {
+.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text], .loginpage input[type=password] {
     color: rgba(var(--orange-rgb), 1)
     /*#fa8564*/
     
     ;
     background: #fbfbfb;
+}
+.loginpage .space-between {
+	display: flex; 
+	justify-content: space-between;
 }
 .loginpage #nav a, .loginpage a {
     color: rgba(255, 255, 255, 1)
@@ -4412,13 +4419,13 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     
     ;
 }
-.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text] {
+.loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text], .loginpage input[type=password] {
     background-color: rgba(255, 255, 255, 0.6)
     /*#ffffff*/
     
     ;
 }
-.loginpage form .input:hover, .loginpage form input[type=checkbox]:hover, .loginpage input[type=text]:hover, .loginpage form .input:focus, .loginpage form input[type=checkbox]:focus, .loginpage input[type=text]:focus {
+.loginpage form .input:hover, .loginpage form input[type=checkbox]:hover, .loginpage input[type=text]:hover, .loginpage input[type=password]:hover, .loginpage form .input:focus, .loginpage form input[type=checkbox]:focus, .loginpage input[type=text]:focus {
     background-color: rgba(255, 255, 255, 0.8)
     /*#ffffff*/
     

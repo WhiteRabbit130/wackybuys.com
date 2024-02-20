@@ -3,7 +3,8 @@
 	<!-- CORE JS FRAMEWORK - START --> 
 	<script src="<?php echo base_url('assets/js/jquery-3.4.1.min.js');?>" type="text/javascript"></script> 
 	<script src="<?php echo base_url('assets/js/popper.min.js');?>" type="text/javascript"></script> 
-		<script src="<?php echo base_url('assets/plugins/bootstrap/js/bootstrap.min.js');?>" type="text/javascript"></script> 
+	<script src="<?php echo base_url('assets/plugins/bootstrap/js/bootstrap.min.js');?>" type="text/javascript"></script> 
+	<!--<script src="<?php echo base_url('assets/plugins/pace/pace.min.js');?>" type="text/javascript"></script> -->  
 	<script src="<?php echo base_url('assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js');?>" type="text/javascript"></script> 
 	<script src="<?php echo base_url('assets/plugins/viewport/viewportchecker.js');?>" type="text/javascript"></script>  
 	<!-- CORE JS FRAMEWORK - END --> 
