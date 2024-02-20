@@ -24,14 +24,14 @@
 				<p><a class="float-right" href="<?php echo site_url('auth/login');?>" title="Sign Up">Sign In</a></p>
 			</div>
 			<div class="clearfix"></div>
-			<div class="col-lg-12 text-center register-social">
+			<!-- <div class="col-lg-12 text-center register-social">
 
 				<a href="#" class="btn btn-primary btn-lg facebook"><i class="fa fa-facebook icon-sm"></i></a>
 				<a href="#" class="btn btn-primary btn-lg twitter"><i class="fa fa-twitter icon-sm"></i></a>
 				<a href="#" class="btn btn-primary btn-lg google-plus"><i class="fa fa-google-plus icon-sm"></i></a>
 				<a href="#" class="btn btn-primary btn-lg dribbble"><i class="fa fa-dribbble icon-sm"></i></a>
 
-			</div>
+			</div> -->
 
 		</div>
 	</div>

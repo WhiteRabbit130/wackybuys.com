@@ -6184,7 +6184,7 @@ border-left: 3px solid transparent;
 .lockscreen_search {
     margin: 15px 0;
 }
-.lockscreen_search input[type='password'] {
+.lockscreen_search input[type='text'] {
     margin: 0 auto;
     padding: 15px 15px;
     font-size: 17px;
