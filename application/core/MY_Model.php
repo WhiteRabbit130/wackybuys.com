@@ -58,8 +58,8 @@ class MY_Model extends CI_Model {
 		$this->db->where( $this->table_id, $dados['id']);
 
 		// deleta o id
-		unset( $dados['id'] );
-		if ( isset( $dados[$this->table_id] ) ) unset( $dados[$this->table_id] );
+		// unset( $dados['id'] );
+		// if ( isset( $dados[$this->table_id] ) ) unset( $dados[$this->table_id] );
 
 		// faz o update
 		return $this->db->update($this->table, $dados); 

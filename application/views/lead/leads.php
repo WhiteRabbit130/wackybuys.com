@@ -73,7 +73,7 @@
 												<td><?php echo $lead['brief']; ?></td>
 												<td><?php echo $lead['address']; ?></td>
 												<td>
-													<button class="btn btn-warning">Edit</button>
+													<a href="<?php echo site_url('lead/edit/'.$lead['id']); ?>" class="btn btn-warning">Edit</a>
 													<a href="<?php echo site_url('lead/delete/'.$lead['id']); ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this lead?');">Delete</a>
 												</td>
 											</tr>

@@ -14,7 +14,8 @@
 			<div class='col-xl-12 col-lg-12 col-md-12 col-12'>
 				<div class="page-title">
 					<div class="float-left">
-						<h1 class="title">Add a Lead</h1>                            </div>
+						<h1 class="title"><?php echo isset($id) && !empty($id) ? "EDIT LEAD" : "ADD A LEAD"; ?></h1>                            
+					</div>
 					<div class="float-right d-none">
 						<ol class="breadcrumb">
 							<li>
@@ -43,21 +44,20 @@
 					</header>
 					<div class="content-body">
 						<div class="row">
-							<form action ="#" method="post">
+							<?php echo isset($id) && !empty($id) ? form_open('lead/update/'.$id) : form_open('lead/store') ?>
 								<div class="col-xl-8 col-lg-8 col-md-9 col-12">
-
 									<div class="form-group">
 										<label class="form-label" for="field-1">Name</label>
 										<span class="desc"></span>
 										<div class="controls">
-											<input type="text" value="" class="form-control" id="field-1">
+											<input type="text" value="<?php echo isset($name) && !empty($name) ? $name : ""; ?>" class="form-control" name="name" id="name" required>
 										</div>
 									</div>
 									<div class="form-group">
 										<label class="form-label" for="field-5">Date of Birth</label>
 										<span class="desc">e.g. "04/03/2015"</span>
 										<div class="controls">
-											<input type="text" value="" class="form-control datepicker" data-format="mm/dd/yyyy" value="">
+											<input type="text" value="<?php echo isset($birthday) && !empty($birthday) ? $birthday : ""; ?>" class="form-control datepicker" data-format="mm/dd/yyyy" value="">
 										</div>
 									</div>
 									<div class="form-group">
@@ -80,20 +80,21 @@
 										<label class="form-label" for="field-6">Brief</label>
 										<span class="desc">e.g. "Enter any size of text description here"</span>
 										<div class="controls">
-											<textarea class="form-control autogrow" cols="5" id="field-6"></textarea>
+											<textarea class="form-control autogrow" cols="5" id="field-6" name="brief" ><?php echo isset($brief) && !empty($brief) ? $brief : ""; ?></textarea>
 										</div>
 									</div>
 								</div>
 								<div class="col-xl-8 col-lg-8 col-md-9 col-12 padding-bottom-30">
 									<div class="text-left">
-										<button type="button" class="btn btn-primary">Save</button>
+										<button type="submit"  class="btn btn-primary">Save</button>
 										<button type="button" class="btn">Cancel</button>
 									</div>
 								</div>
-							</form>
+							<?php echo form_close();?>
 						</div>
 					</div>
-				</section></div>
+				</section>
+			</div>
 			<div class="col-xl-12 col-lg-12 col-12 col-md-12">
 				<section class="box ">
 					<header class="panel_header">
