@@ -18,7 +18,7 @@
 					<p class="login-icheck" >
 						<label class="icheck-label form-label" for="showpassword"><?php echo form_checkbox('showpassword', '1', FALSE, 'id="showpassword"');?> Show Password</label>
 					</p>
-					<p class="login-icheck" >
+					<p class="login-icheck text-right" >
 						<label class="icheck-label form-label" for="remember"><?php echo form_checkbox('remember', '1', FALSE, 'id="remember"');?> Remember me</label>
 					</p>						
 				</div>

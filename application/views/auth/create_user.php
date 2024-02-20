@@ -18,10 +18,10 @@
 			<?php echo form_close();?>
 
 			<div class="space-between">
-			
-					<p class="login-icheck icheck-label float-left" for="showpassword"><?php echo form_checkbox('showpassword', '1', FALSE, 'id="showpassword"');?> Show Password</p>
-				
-				<p><a class="float-right" href="<?php echo site_url('auth/login');?>" title="Sign Up">Sign In</a></p>
+				<p class="login-icheck" >
+					<label class="icheck-label" for="showpassword"><?php echo form_checkbox('showpassword', '1', FALSE, 'id="showpassword"');?> Show Password</label>
+				</p>
+				<a class="float-right" href="<?php echo site_url('auth/login');?>" title="Sign Up">Sign In</a>
 			</div>
 			<div class="clearfix"></div>
 			<!-- <div class="col-lg-12 text-center register-social">

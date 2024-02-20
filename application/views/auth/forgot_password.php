@@ -6,7 +6,7 @@
 					<div class="col-lg-12 col-md-12 col-12">
 						<div class="col-lg-4 offset-lg-4">
 							<div class='text-center'>
-								<h1><a href="<?php echo site_url();?>" class="lockscreen_icon"><b>Wackybuys</b></a></h1>
+								<!-- <h1><a href="<?php echo site_url();?>" class="lockscreen_icon"><b>Wackybuys</b></a></h1> -->
 							</div>
 							<p class="lockscreen_info">Change Password</p>
 							<div class="lockscreen-name text-danger" id="infoMessage"><?php echo $message;?></div>
