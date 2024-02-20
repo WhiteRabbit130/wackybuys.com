@@ -8,16 +8,18 @@
 						<h1 class="lockscreen_info">Dear User</h1>
 
 						<div class="col-lg-4 col-md-6 col-8 offset-lg-4 offset-md-3 col-offset-2 lockscreen_search_area">
-							<form action="<?php echo site_url('auth/verifyCode');?>" method="post" class="lockscreen_search">
+							<!-- <form action="<?php echo site_url('auth/verifyCode');?>" method="post" class="lockscreen_search"> -->
+							<?php echo form_open('auth/verifyCode');?>
 								<div class="input-group transparent">
-									<span class="input-group-addon">
+									<!-- <span class="input-group-addon">
 										<i class="fa fa-sign-in icon-primary"></i>
-									</span>
+									</span> -->
 									<input type="text" class="form-control" name="verifyCode" placeholder="Type & Enter">
 									<input type="hidden" name="email" value="<?=$email?>" >
-									<input type='submit' value="">
 								</div>
-							</form>
+								<!-- <input type='submit' class="btn btn-primary btn-block btn-flat" value="Verify" content="Veryfi"> -->
+							<!-- </form> -->
+							<?php echo form_close();?>
 						</div>
 						<div class="clearfix"></div>
 						<h1 class="lockscreen_tagline">The verify code will be sent to your email: <b><?=$email?></b>.<br />Please enter your verify code for access</h1>
