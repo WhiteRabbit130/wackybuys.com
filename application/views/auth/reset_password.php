@@ -19,7 +19,6 @@
 										<?php echo form_input($new_password_confirm);?>
 										<span class="glyphicon glyphicon-lock form-control-feedback"></span>
 									</div>
-
 									<?php echo form_input($user_id);?>
 									<?php echo form_hidden($csrf); ?>
 									<?php $data = array('type'  =>'submit', 'class' =>'btn btn-primary btn-block btn-flat', 'content'=>'Reset Password')?>
