@@ -22,7 +22,6 @@
 						<label class="icheck-label form-label" for="remember"><?php echo form_checkbox('remember', '1', FALSE, 'id="remember"');?> Remember me</label>
 					</p>						
 				</div>
-				
 				<div class="g-recaptcha" data-sitekey="6LeNblspAAAAAAjE_Itbl4DkXIibaeuaWW7QMhvT" ></div>
 				<p class="submit">
 					<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-orange btn-block" value="Sign In" />
