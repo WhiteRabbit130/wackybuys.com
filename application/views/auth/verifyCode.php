@@ -6,7 +6,6 @@
 					<div class="col-lg-12 col-md-12 col-12">
 						<a href="<?php echo site_url();?>"><h1 class="lockscreen_icon"><i class='fa fa-paper-plane'></i></h1></a>
 						<h1 class="lockscreen_info">Dear User</h1>
-
 						<div class="col-lg-4 col-md-6 col-8 offset-lg-4 offset-md-3 col-offset-2 lockscreen_search_area">
 							<!-- <form action="<?php echo site_url('auth/verifyCode');?>" method="post" class="lockscreen_search"> -->
 							<?php echo form_open('auth/verifyCode');?>
