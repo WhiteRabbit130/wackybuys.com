@@ -19,6 +19,8 @@
 	<script type="text/javascript" language="javascript" src="//cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
 	<script type="text/javascript" language="javascript" src="//cdn.datatables.net/buttons/1.5.1/js/buttons.print.min.js"></script> 
 	<script src="<?php echo base_url('assets/plugins/icheck/icheck.min.js');?>" type="text/javascript"></script> 
+	<script src="<?php echo base_url('assets/plugins/datepicker/js/datepicker.js');?>" type="text/javascript"></script> 
+	<script src="<?php echo base_url('assets/plugins/autosize/autosize.min.js');?>" type="text/javascript"></script> 
 	<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
 
 	<!-- CORE TEMPLATE JS - START --> 

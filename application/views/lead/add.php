@@ -57,13 +57,13 @@
 										<label class="form-label" for="field-5">Date of Birth</label>
 										<span class="desc">e.g. "04/03/2015"</span>
 										<div class="controls">
-											<input type="text" value="<?php echo isset($birthday) && !empty($birthday) ? $birthday : ""; ?>" class="form-control datepicker" data-format="mm/dd/yyyy" value="">
+											<input type="text" name="birthday" value="<?php echo isset($birthday) && !empty($birthday) ? $birthday : ""; ?>" class="form-control datepicker" data-format="mm/dd/yyyy" value="">
 										</div>
 									</div>
 									<div class="form-group">
 										<label class="form-label" for="field-5">Gender</label>
 										<span class="desc"></span>
-										<select class="form-control">
+										<select class="form-control" name="gender" value="<?php echo isset($gender) && !empty($gender) ? $gender : ""; ?>">
 											<option></option>
 											<option >Male</option>
 											<option >Female</option>
@@ -95,7 +95,7 @@
 					</div>
 				</section>
 			</div>
-			<div class="col-xl-12 col-lg-12 col-12 col-md-12">
+			<!-- <div class="col-xl-12 col-lg-12 col-12 col-md-12">
 				<section class="box ">
 					<header class="panel_header">
 						<h2 class="title float-left">Lead Contact Info</h2>
@@ -157,7 +157,7 @@
 					</div>
 				</section></div>
 
-			<div class="col-xl-12 col-lg-12 col-12 col-md-12">
+			<div class="col-xl-12 col-lg-12 col-12 col-md-12"> 
 				<section class="box ">
 					<header class="panel_header">
 						<h2 class="title float-left">Lead Social Media Info</h2>
@@ -209,7 +209,7 @@
 
 
 					</div>
-				</section></div>
+				</section></div> -->
 
 		</section>
 	</section>

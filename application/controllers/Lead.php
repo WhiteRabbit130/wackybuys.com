@@ -52,6 +52,7 @@ class Lead extends MY_Controller
         $data = array(
             'name' => $this->input->post('name'),
             'brief' => $this->input->post('brief'),
+            'birthday' => $this->input->post('birthday'),
             'gender' => $this->input->post('gender'),
             // Add other fields as needed
         );
@@ -65,6 +66,7 @@ class Lead extends MY_Controller
 			'id' => $id,
             'name' => $this->input->post('name'),
             'brief' => $this->input->post('brief'),
+            'birthday' => $this->input->post('birthday'),
             'gender' => $this->input->post('gender'),
 
             // Add other fields as needed
