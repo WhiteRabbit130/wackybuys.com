@@ -22,7 +22,6 @@
 				</div>
 			</li>
 		</ul>
-
 		<h4 class="group-head">Favourites</h4>
 		<ul class="contact-list">
 			<li class="user-row" id='chat_user_1' data-user-id='1'>
