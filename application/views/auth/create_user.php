@@ -11,7 +11,6 @@
 				<label><?php echo lang('create_user_phone_label', 'phone');?> <br /><?php echo form_input($phone);?></label>
 				<label><?php echo lang('create_user_password_label', 'password');?> <br /><?php echo form_input($password);?></label>
 				<label><?php echo lang('create_user_password_confirm_label', 'password');?> <br /><?php echo form_input($password_confirm);?></label>
-			
 				<p class="submit">
 					<input type="submit" name="wp-submit" id="wp-submit" class="btn btn-orange btn-block" value="Sign Up" />
 				</p>
