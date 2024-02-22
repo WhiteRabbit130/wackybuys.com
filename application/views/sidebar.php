@@ -133,7 +133,6 @@
 	<!-- MAIN MENU - END -->
 
 	<div class="project-info">
-
 		<div class="block1">
 			<div class="data">
 				<span class='title'>Target</span>
