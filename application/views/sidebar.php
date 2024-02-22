@@ -21,10 +21,7 @@
 		</div>
 		<!-- USER INFO - END -->
 
-
 		<ul class='wraplist'>	
-
-
 			<li class=""> 
 				<a href="index-crm.html">
 					<i class="fa fa-dashboard"></i>
