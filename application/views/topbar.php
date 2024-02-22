@@ -16,9 +16,7 @@
 							<span class="badge badge-pill badge-primary">7</span>
 						</a>
 						<ul class="dropdown-menu messages animated fadeIn">
-
 							<li class="list dropdown-item">
-
 								<ul class="dropdown-menu-list list-unstyled ps-scrollbar">
 									<li class="unread status-available">
 										<a href="javascript:;">
