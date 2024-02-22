@@ -10,20 +10,15 @@
 					<img src="data/profile/profile-crm.jpg" class="img-fluid rounded-circle">
 				</a>
 			</div>
-
 			<div class="profile-details col-lg-8 col-md-8 col-8">
-
 				<h3>
 					<a href="ui-profile.html">John Wilson</a>
 
 					<!-- Available statuses: online, idle, busy, away and offline -->
 					<span class="profile-status online"></span>
 				</h3>
-
 				<p class="profile-title">Administrator</p>
-
 			</div>
-
 		</div>
 		<!-- USER INFO - END -->
 
