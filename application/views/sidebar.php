@@ -4,7 +4,6 @@
 
 		<!-- USER INFO - START -->
 		<div class="profile-info row">
-
 			<div class="profile-image col-lg-4 col-md-4 col-4">
 				<a href="ui-profile.html">
 					<img src="data/profile/profile-crm.jpg" class="img-fluid rounded-circle">
@@ -21,7 +20,6 @@
 			</div>
 		</div>
 		<!-- USER INFO - END -->
-
 
 
 		<ul class='wraplist'>	
