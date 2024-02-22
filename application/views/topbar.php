@@ -162,7 +162,6 @@
 								</a>
 							</li>
 						</ul>
-
 					</li>
 					<li class="notify-toggle-wrapper list-inline-item">
 						<a href="#" data-toggle="dropdown" class="toggle">
@@ -177,7 +176,6 @@
 								</span>
 							</li>
 							<li class="list dropdown-item">
-
 								<ul class="dropdown-menu-list list-unstyled ps-scrollbar">
 									<li class="unread available"> <!-- available: success, warning, info, error -->
 										<a href="javascript:;">
