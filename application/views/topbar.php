@@ -268,11 +268,8 @@
 											</div>
 										</a>
 									</li>
-
 								</ul>
-
 							</li>
-
 							<li class="external dropdown-item">
 								<a href="javascript:;">
 									<span>Read All Notifications</span>
