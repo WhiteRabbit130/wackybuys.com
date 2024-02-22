@@ -154,11 +154,8 @@
 											</div>
 										</a>
 									</li>
-
 								</ul>
-
 							</li>
-
 							<li class="external">
 								<a href="javascript:;">
 									<span>Read All Messages</span>
