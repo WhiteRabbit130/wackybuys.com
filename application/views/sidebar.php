@@ -128,7 +128,6 @@
 				</ul>
 			</li>
 		</ul>
-
 	</div>
 	<!-- MAIN MENU - END -->
 
@@ -142,7 +141,6 @@
 				<span class="sidebar_orders">...</span>
 			</div>
 		</div>
-
 		<div class="block2">
 			<div class="data">
 				<span class='title'>Customers</span>
