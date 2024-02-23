@@ -4407,10 +4407,7 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     color: rgba(255, 255, 255, 1);
 }
 .loginpage, .loginpage form label, .loginpage form, .loginpage .message {
-    color: rgba(255, 255, 255, 1)
-    /*#ffffff*/
-    
-    ;
+    color: rgba(255, 255, 255, 1);
 }
 .loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text], .loginpage input[type=password] {
     background-color: rgba(255, 255, 255, 0.6)
