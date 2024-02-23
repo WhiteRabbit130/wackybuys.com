@@ -4410,10 +4410,7 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     color: rgba(255, 255, 255, 1);
 }
 .loginpage form .input, .loginpage form input[type=checkbox], .loginpage input[type=text], .loginpage input[type=password] {
-    background-color: rgba(255, 255, 255, 0.6)
-    /*#ffffff*/
-    
-    ;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .loginpage form .input:hover, .loginpage form input[type=checkbox]:hover, .loginpage input[type=text]:hover, .loginpage input[type=password]:hover, .loginpage form .input:focus, .loginpage form input[type=checkbox]:focus, .loginpage input[type=text]:focus {
     background-color: rgba(255, 255, 255, 0.8);
