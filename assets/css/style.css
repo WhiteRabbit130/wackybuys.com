@@ -4416,10 +4416,7 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     background-color: rgba(255, 255, 255, 0.8);
 }
 .loginpage #login_error, .loginpage .message {
-    background-color: rgba(255, 255, 255, 0.6)
-    /*#ffffff*/
-    
-    ;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 .loginpage .message, .loginpage .message a, .loginpage #login_error, .loginpage #login_error a {
     color: rgba(var(--orange-rgb), 1)
