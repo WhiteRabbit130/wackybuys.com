@@ -4428,10 +4428,7 @@ a.cke_button_off:hover, .cke_hc a.cke_button_off:focus, .cke_hc a.cke_button_off
     margin: 5px 5px 5px 5px;
 }
 body.login_page {
-    background-color: rgba(116, 77, 144, 1.0)
-    /*#744d90*/
-    
-    ;
+    background-color: rgba(116, 77, 144, 1.0);
     background-image: url('../images/login-bg.png');
     background-attachment: fixed;
     height: 100%;
