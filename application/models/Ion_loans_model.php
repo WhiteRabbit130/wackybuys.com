@@ -17,9 +17,7 @@ class ion_loans_model extends CI_Model {
 		function get_data($id){
 		    $return[''] = '--- Please select client ---';
 		    $query  = $this->ion_auth->users($id)->result();
-
 		    foreach($query as $detail){
-
 		        $return[$detail->id] = ucwords($detail->last_name.' '.$detail->first_name);
 
 		    }
