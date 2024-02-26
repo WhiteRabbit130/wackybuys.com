@@ -33,8 +33,7 @@ class ion_loans_model extends CI_Model {
 			//$this->db->join('users', 'users_loans.loan_collector = users.id');
 			$query = $this->db->get('users_loans');
 			return $query;
-	  	}
-	
+	  	}	
 
 
 }
