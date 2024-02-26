@@ -9,13 +9,9 @@ class ion_loans_model extends CI_Model {
 	  }
 
 	  	function insertPost($data){
-
-			$this->db->insert('tb_post', $data);
-			
+			$this->db->insert('tb_post', $data);			
 			$id = $this->db->insert_id();
-
 			return (isset($id)) ? $id : FALSE;
-
 		}
 
 		function get_data($id){
