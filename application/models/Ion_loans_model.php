@@ -35,5 +35,4 @@ class ion_loans_model extends CI_Model {
 			return $query;
 	  	}	
 
-
 }
