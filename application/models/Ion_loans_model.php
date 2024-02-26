@@ -34,5 +34,4 @@ class ion_loans_model extends CI_Model {
 			$query = $this->db->get('users_loans');
 			return $query;
 	  	}	
-
 }
