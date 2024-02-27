@@ -46,12 +46,6 @@
 					</header>
 					<div class="content-body">    <div class="row">
 							<div class="col-md-12 col-sm-12 col-xs-12">
-
-
-
-								<!-- ********************************************** -->
-
-
 								<table id="user_table" class="display table table-hover table-condensed" cellspacing="0" width="100%">
 									<thead>
 										<tr>
