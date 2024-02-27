@@ -13,7 +13,6 @@
             <?php echo lang('edit_group_desc_label', 'description');?> <br />
             <?php echo form_input($group_description);?>
       </p>
-
       <p><?php echo form_submit('submit', lang('edit_group_submit_btn'));?></p>
 
 <?php echo form_close();?>
