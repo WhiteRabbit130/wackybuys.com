@@ -8,7 +8,6 @@
             <?php echo lang('edit_group_name_label', 'group_name');?> <br />
             <?php echo form_input($group_name);?>
       </p>
-
       <p>
             <?php echo lang('edit_group_desc_label', 'description');?> <br />
             <?php echo form_input($group_description);?>
