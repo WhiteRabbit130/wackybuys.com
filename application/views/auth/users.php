@@ -116,7 +116,6 @@
             <div class="col-md-9">
              	
              	<div class="box">
-
                 <div class="box-header">
                   <h3 class="box-title"><?php echo lang('index_subheading');?></h3>
                    <?php if($this->ion_auth->is_admin() || $this->ion_auth->in_group(4)){?>
