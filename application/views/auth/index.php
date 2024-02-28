@@ -61,7 +61,6 @@
 				</section>
 			</div>
 		</section>
-		.
 	</section>
 	<!-- END CONTENT -->
 	<!-- CHATAPI - START -->
