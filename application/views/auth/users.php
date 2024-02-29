@@ -193,7 +193,6 @@
 													</div>
 													<!--modal end--> 
 													<?php endforeach;?>
-
 		                    </tbody>
 
 		                  </table>
