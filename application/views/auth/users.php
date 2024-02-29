@@ -200,8 +200,7 @@
             </div><!-- /.col -->
             <!--user table end-->
 
-            <div class="col-md-3">
-              
+            <div class="col-md-3">             
               <div class="box">
 
                 <div class="box-header">
