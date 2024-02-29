@@ -192,7 +192,6 @@
 														</div>
 													</div>
 													<!--modal end--> 
-
 													<?php endforeach;?>
 
 		                    </tbody>
