@@ -194,7 +194,6 @@
 													<!--modal end--> 
 													<?php endforeach;?>
 		                    </tbody>
-
 		                  </table>
     				    </div><!-- /.box-body -->
 
