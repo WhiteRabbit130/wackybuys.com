@@ -202,7 +202,6 @@
 
             <div class="col-md-3">             
               <div class="box">
-
                 <div class="box-header">
                   <h3 class="box-title"><?php echo lang('create_user_heading');?></h3>
                 </div><!-- /.box-header -->
