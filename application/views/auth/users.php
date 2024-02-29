@@ -241,7 +241,6 @@
                   </div>
 
                   <div class="form-group">
-
                   <?php if ($this->ion_auth->is_admin()): ?>
 
                         <?php foreach ($groups as $details):?>
