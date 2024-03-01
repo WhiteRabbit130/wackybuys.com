@@ -4,7 +4,6 @@
 			<h4 class="modal-title" id="myModalLabel"><?php echo lang('deactivate_heading');?></h4>
 	    </div>
 		<div class="modal-body">
-
 			<div class="form-group">
 			<?php echo sprintf(lang('deactivate_subheading'), '<strong>'.$user->username.'?'.'</strong>');?> 
 			</div>
