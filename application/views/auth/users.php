@@ -251,7 +251,6 @@
                         <?php endforeach?>
 
                   <?php endif ?>
-
                   </div>
 
                   <div class='row'>
