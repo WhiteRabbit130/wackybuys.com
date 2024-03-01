@@ -23,9 +23,7 @@
 	</div>
 
 	<div class="modal-footer">
-		<?php $data = array('type'=>'submit',
-										'class' =>'btn btn-primary btn-block btn-flat',
-										'content' => "<i class='glyphicon glyphicon-saved'></i> ".lang('deactivate_submit_btn'))?>               
+		<?php $data = array('type'=>'submit', 'class' =>'btn btn-primary btn-block btn-flat', 'content' => "<i class='glyphicon glyphicon-saved'></i> ".lang('deactivate_submit_btn'))?>               
 		<?php echo form_button($data);?>
 	</div>
 <?php echo form_close();?>
