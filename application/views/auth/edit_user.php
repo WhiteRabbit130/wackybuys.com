@@ -148,8 +148,7 @@
           <div class="row">
 
             <!--user table start-->
-            <div class="col-md-8">
-              
+            <div class="col-md-8">              
               <div class="box">
 
                 <div class="box-header">
