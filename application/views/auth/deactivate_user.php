@@ -9,12 +9,12 @@
 		</div>
 
 		<div class="btn-group" data-toggle="buttons">
-				<label class="btn btn-default active">
-					<input type="radio" name="confirm" value="yes" checked="checked" /> yes
-				</label> 
-				<label class="btn btn-default">
-					<input type="radio" name="confirm" value="no" /> no
-				</label> 
+			<label class="btn btn-default active">
+				<input type="radio" name="confirm" value="yes" checked="checked" /> yes
+			</label> 
+			<label class="btn btn-default">
+				<input type="radio" name="confirm" value="no" /> no
+			</label> 
 		</div>
 
 		<?php echo form_hidden($csrf); ?>
