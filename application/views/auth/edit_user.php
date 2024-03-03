@@ -177,27 +177,27 @@
                         </thead>
 
                         <tbody>
-                             <?php foreach ($users as $user):?>
-                                   <tr>
-                                      <td><?php echo htmlspecialchars($user->first_name,ENT_QUOTES,'UTF-8');?></td>
-                                      <td><?php echo htmlspecialchars($user->last_name,ENT_QUOTES,'UTF-8');?></td>
-                                      <td><?php echo htmlspecialchars($user->email,ENT_QUOTES,'UTF-8');?></td>
-                                      
-                                      <?php if($this->ion_auth->is_admin()){?>
-                                      <td>
-                                        <?php foreach ($user->groups as $group):?>
-                                          <?php echo anchor("auth/edit_group/".$group->id, htmlspecialchars($group->name,ENT_QUOTES,'UTF-8')) ;?><br />
-                                                <?php endforeach?>
-                                      </td>
-                                      <?php }?>
+													<?php foreach ($users as $user):?>
+														<tr>
+															<td><?php echo htmlspecialchars($user->first_name,ENT_QUOTES,'UTF-8');?></td>
+															<td><?php echo htmlspecialchars($user->last_name,ENT_QUOTES,'UTF-8');?></td>
+															<td><?php echo htmlspecialchars($user->email,ENT_QUOTES,'UTF-8');?></td>
+															
+															<?php if($this->ion_auth->is_admin()){?>
+															<td>
+																<?php foreach ($user->groups as $group):?>
+																	<?php echo anchor("auth/edit_group/".$group->id, htmlspecialchars($group->name,ENT_QUOTES,'UTF-8')) ;?><br />
+																				<?php endforeach?>
+															</td>
+															<?php }?>
 
-                                      <td><?php echo ($user->active) ? anchor("auth/deactivate/".$user->id, lang('index_active_link'),'class="btn btn-xs btn-success"') : anchor("auth/activate/". $user->id, lang('index_inactive_link'),'class="btn btn-xs btn-danger"');?></td>
-                                      
-                                      <?php if($this->ion_auth->is_admin()){?>
-                                      <td><?php echo anchor("auth/edit_user/".$user->id, '<i class="glyphicon glyphicon-pencil"></i>'.' Edit','class="btn btn-xs btn-warning"') ;?></td>
-                                      <?php }?>
-                                   </tr>
-                                <?php endforeach;?>
+															<td><?php echo ($user->active) ? anchor("auth/deactivate/".$user->id, lang('index_active_link'),'class="btn btn-xs btn-success"') : anchor("auth/activate/". $user->id, lang('index_inactive_link'),'class="btn btn-xs btn-danger"');?></td>
+															
+															<?php if($this->ion_auth->is_admin()){?>
+															<td><?php echo anchor("auth/edit_user/".$user->id, '<i class="glyphicon glyphicon-pencil"></i>'.' Edit','class="btn btn-xs btn-warning"') ;?></td>
+															<?php }?>
+														</tr>
+													<?php endforeach;?>
                         </tbody>
 
                       </table>
