@@ -206,7 +206,6 @@
             <!--user table end-->
             <div class="col-md-4">              
               <div class="box">
-
                 <div class="box-header">
                   <h3 class="box-title"><?php echo lang('edit_user_heading');?></h3>
                 </div><!-- /.box-header -->
