@@ -210,7 +210,6 @@
                 <div class="box-body">
                   <p><?php echo lang('create_user_subheading');?></p>
                   <div id="infoMessage" class="text-danger"><?php echo $message;?></div>
-
                   <?php echo form_open(uri_string());?>
 
                   <div class='form-group'>
