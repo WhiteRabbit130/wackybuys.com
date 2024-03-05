@@ -204,8 +204,6 @@
               </div><!-- /.box -->
             </div><!-- /.col -->
             <!--user table end-->
-
-
             <div class="col-md-4">
               
               <div class="box">
