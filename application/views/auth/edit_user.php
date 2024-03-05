@@ -209,7 +209,6 @@
                 <div class="box-header">
                   <h3 class="box-title"><?php echo lang('edit_user_heading');?></h3>
                 </div><!-- /.box-header -->
-
                 <div class="box-body">
                   <p><?php echo lang('create_user_subheading');?></p>
                   <div id="infoMessage" class="text-danger"><?php echo $message;?></div>
