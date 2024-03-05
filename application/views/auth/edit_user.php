@@ -192,8 +192,7 @@
 															<?php }?>
 
 															<td><?php echo ($user->active) ? anchor("auth/deactivate/".$user->id, lang('index_active_link'),'class="btn btn-xs btn-success"') : anchor("auth/activate/". $user->id, lang('index_inactive_link'),'class="btn btn-xs btn-danger"');?></td>
-															
-															<?php if($this->ion_auth->is_admin()){?>
+																														<?php if($this->ion_auth->is_admin()){?>
 															<td><?php echo anchor("auth/edit_user/".$user->id, '<i class="glyphicon glyphicon-pencil"></i>'.' Edit','class="btn btn-xs btn-warning"') ;?></td>
 															<?php }?>
 														</tr>
