@@ -237,7 +237,6 @@
                   </div>
 
                   <div class="form-group">
-
                   <h3><?php echo lang('edit_user_groups_heading');?></h3>
                   <?php foreach ($groups as $group):?>
                     <label class="checkbox">
